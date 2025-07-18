@@ -22,7 +22,7 @@ $H_1: \mu_0 \leq \mu_i,\; i = 1, \ldots, k,$ with at least one strict inequality
 
 
 
-Here, \(\mu_0\) is the mean of the control group and \(\mu_i\) are the means of the treatment groups.
+Here, $\mu_0$ is the mean of the control group and $\mu_i$ are the means of the treatment groups.
 
 ---
 
