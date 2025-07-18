@@ -31,6 +31,7 @@ Here, $\mu_0$ is the mean of the control group and $\mu_i$ are the means of the 
 ```r
 # Install devtools if needed
 install.packages("devtools")
+library(devtools)
 
 # Install the package from GitHub
 devtools::install_github("SubhaHalder-spec/TreeOrderTests", force = TRUE)
