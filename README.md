@@ -13,11 +13,14 @@ This package provides three tests:
 
 These tests address the null hypothesis:
 
-\[
-H_0: \mu_0 = \mu_1 = \cdots = \mu_k
-\quad \text{vs} \quad
-H_1: \mu_0 \leq \mu_i,\; i = 1, \ldots, k,\; \text{with at least one strict inequality.}
-\]
+
+## Hypothesis
+
+$H_0: \mu_0 = \mu_1 = \cdots = \mu_k$  
+vs  
+$H_1: \mu_0 \leq \mu_i,\; i = 1, \ldots, k,$ with at least one strict inequality.
+
+
 
 Here, \(\mu_0\) is the mean of the control group and \(\mu_i\) are the means of the treatment groups.
 
