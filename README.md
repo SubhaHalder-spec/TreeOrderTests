@@ -6,17 +6,17 @@
 
 ## 📊 Overview
 
-The package provides three tests:
+This package provides three tests:
 - **TreeLRT**: Likelihood Ratio Test  
-- **TreeMaxD**: Maximum Difference Based Test  
-- **TreeMinD**: Minimum Difference Based Test
+- **TreeMaxD**: Maximum Difference-Based Test  
+- **TreeMinD**: Minimum Difference-Based Test
 
 These tests address the null hypothesis:
 
 \[
 H_0: \mu_0 = \mu_1 = \cdots = \mu_k
 \quad \text{vs} \quad
-H_1: \mu_0 \leq \mu_i, \quad i = 1,\ldots,k, \quad \text{with at least one strict inequality.}
+H_1: \mu_0 \leq \mu_i,\; i = 1, \ldots, k,\; \text{with at least one strict inequality.}
 \]
 
 Here, \(\mu_0\) is the mean of the control group and \(\mu_i\) are the means of the treatment groups.
@@ -25,10 +25,16 @@ Here, \(\mu_0\) is the mean of the control group and \(\mu_i\) are the means of 
 
 ## 📦 Installation
 
+```r
+# Install devtools if needed
 install.packages("devtools")
-library(devtools)
-install_github("SubhaHalder-spec/TreeOrderTests", force = TRUE)
+
+# Install the package from GitHub
+devtools::install_github("SubhaHalder-spec/TreeOrderTests", force = TRUE)
+
+# Load the package
 library(TreeOrderTests)
+
 
 # Example data: control + 2 treatments
 control <- rnorm(30, mean = 10, sd = 2)
